@@ -1,0 +1,75 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    ABModelContainer:{
+        borderRadius:20,
+        alignItems:'center',
+        paddingBottom:'5%',
+        width:'100%',
+        borderWidth:4,
+        borderColor:'white',
+        backgroundColor: 'rgba(179, 178, 178, 0.85)',
+        minHeight:'88%',
+    },
+    header:{
+        color:'black',
+        fontWeight:'bold',
+        fontSize:24,
+        width:'100%',
+        padding:'10%',
+        borderTopRightRadius:15,
+        borderTopLeftRadius:15,
+        borderBottomWidth:5,
+        borderColor:'white',
+        textAlign:'center',
+    },
+    input:{
+        backgroundColor:'white',
+        borderRadius:8,
+        marginTop:'8%',
+        color:'black',
+        padding:15,
+        height:60,
+        width:'85%',
+        fontSize:17
+    },
+    saveButtonContainer:{
+        backgroundColor:'steelblue',
+        padding:10,
+        borderRadius:10,
+        width:'25%',
+        marginTop:'8%',
+        alignSelf:'center'
+    },
+    saveButtonText:{
+        color:'white',
+        fontSize:18,
+        textAlign:'center',
+        fontWeight:'bold',
+    },
+    addCatagoryContainer:{
+        flexDirection:'row',
+        alignItems:'center',
+        borderWidth:4,
+        borderColor:'white',
+        padding:'4%',
+        borderRadius:15,
+        marginTop:'5%',
+        width:'55%',
+        alignSelf:'center',
+        marginTop:'8%'
+    },
+    addCatagoryText:{
+        color:'white',
+        fontWeight:'bold',
+        fontSize:16,
+        marginLeft:'2%'
+    },
+    autocomplete:{
+        backgroundColor:'white',
+        width:'100%',
+        borderRadius:8,
+        color:'black',
+    }
+
+})
